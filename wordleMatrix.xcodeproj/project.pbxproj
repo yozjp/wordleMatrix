@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB9455527C79D96009D15E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9455427C79D96009D15E8 /* AppDelegate.m */; };
+		BDB9455927C79D96009D15E8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BDB9455727C79D96009D15E8 /* Main.html */; };
+		BDB9455B27C79D96009D15E8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB9455A27C79D96009D15E8 /* Icon.png */; };
+		BDB9455D27C79D96009D15E8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BDB9455C27C79D96009D15E8 /* Style.css */; };
+		BDB9455F27C79D96009D15E8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BDB9455E27C79D96009D15E8 /* Script.js */; };
+		BDB9456227C79D96009D15E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9456127C79D96009D15E8 /* ViewController.m */; };
+		BDB9456527C79D96009D15E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB9456327C79D96009D15E8 /* Main.storyboard */; };
+		BDB9456727C79D9A009D15E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB9456627C79D9A009D15E8 /* Assets.xcassets */; };
+		BDB9456927C79D9A009D15E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9456827C79D9A009D15E8 /* main.m */; };
+		BDB9457127C79D9B009D15E8 /* wordleMatrix Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BDB9457027C79D9B009D15E8 /* wordleMatrix Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BDB9457727C79D9B009D15E8 /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9457627C79D9B009D15E8 /* SafariWebExtensionHandler.m */; };
+		BDB9457A27C79D9B009D15E8 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BDB9457927C79D9B009D15E8 /* _locales */; };
+		BDB9457C27C79D9B009D15E8 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BDB9457B27C79D9B009D15E8 /* images */; };
+		BDB9457E27C79D9B009D15E8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB9457D27C79D9B009D15E8 /* manifest.json */; };
+		BDB9458027C79D9B009D15E8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BDB9457F27C79D9B009D15E8 /* background.js */; };
+		BDB9458227C79D9B009D15E8 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = BDB9458127C79D9B009D15E8 /* content.js */; };
+		BDB9458427C79D9B009D15E8 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BDB9458327C79D9B009D15E8 /* popup.html */; };
+		BDB9458627C79D9B009D15E8 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BDB9458527C79D9B009D15E8 /* popup.css */; };
+		BDB9458827C79D9B009D15E8 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BDB9458727C79D9B009D15E8 /* popup.js */; };
+		BDF6634C27CBCF4000AFD57E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF6634B27CBCF4000AFD57E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB9457227C79D9B009D15E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB9454827C79D95009D15E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB9456F27C79D9B009D15E8;
+			remoteInfo = "wordleMatrix Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDB9459027C79D9B009D15E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BDB9457127C79D9B009D15E8 /* wordleMatrix Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6634727CBCF4000AFD57E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BDB9455027C79D96009D15E8 /* wordleMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordleMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB9455327C79D96009D15E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDB9455427C79D96009D15E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDB9455827C79D96009D15E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		BDB9455A27C79D96009D15E8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BDB9455C27C79D96009D15E8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BDB9455E27C79D96009D15E8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BDB9456027C79D96009D15E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDB9456127C79D96009D15E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDB9456427C79D96009D15E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB9456627C79D9A009D15E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB9456827C79D9A009D15E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDB9456B27C79D9A009D15E8 /* wordleMatrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wordleMatrix.entitlements; sourceTree = "<group>"; };
+		BDB9457027C79D9B009D15E8 /* wordleMatrix Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "wordleMatrix Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB9457527C79D9B009D15E8 /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		BDB9457627C79D9B009D15E8 /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		BDB9457927C79D9B009D15E8 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		BDB9457B27C79D9B009D15E8 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BDB9457D27C79D9B009D15E8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		BDB9457F27C79D9B009D15E8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		BDB9458127C79D9B009D15E8 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		BDB9458327C79D9B009D15E8 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		BDB9458527C79D9B009D15E8 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		BDB9458727C79D9B009D15E8 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		BDB9458927C79D9B009D15E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB9458A27C79D9B009D15E8 /* wordleMatrix_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wordleMatrix_Extension.entitlements; sourceTree = "<group>"; };
+		BDF6634927CBCF4000AFD57E /* matrixSend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = matrixSend; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6634B27CBCF4000AFD57E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDF6635027CBD60600AFD57E /* matrixSend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = matrixSend.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB9454D27C79D96009D15E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB9456D27C79D9B009D15E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6634627CBCF4000AFD57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB9454727C79D95009D15E8 = {
+			isa = PBXGroup;
+			children = (
+				BDB9455227C79D96009D15E8 /* wordleMatrix */,
+				BDB9457427C79D9B009D15E8 /* wordleMatrix Extension */,
+				BDF6634A27CBCF4000AFD57E /* matrixSend */,
+				BDB9455127C79D96009D15E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB9455127C79D96009D15E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9455027C79D96009D15E8 /* wordleMatrix.app */,
+				BDB9457027C79D9B009D15E8 /* wordleMatrix Extension.appex */,
+				BDF6634927CBCF4000AFD57E /* matrixSend */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB9455227C79D96009D15E8 /* wordleMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9455327C79D96009D15E8 /* AppDelegate.h */,
+				BDB9455427C79D96009D15E8 /* AppDelegate.m */,
+				BDB9456027C79D96009D15E8 /* ViewController.h */,
+				BDB9456127C79D96009D15E8 /* ViewController.m */,
+				BDB9456327C79D96009D15E8 /* Main.storyboard */,
+				BDB9456627C79D9A009D15E8 /* Assets.xcassets */,
+				BDB9456827C79D9A009D15E8 /* main.m */,
+				BDB9456B27C79D9A009D15E8 /* wordleMatrix.entitlements */,
+				BDB9455627C79D96009D15E8 /* Resources */,
+			);
+			path = wordleMatrix;
+			sourceTree = "<group>";
+		};
+		BDB9455627C79D96009D15E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9455727C79D96009D15E8 /* Main.html */,
+				BDB9455A27C79D96009D15E8 /* Icon.png */,
+				BDB9455C27C79D96009D15E8 /* Style.css */,
+				BDB9455E27C79D96009D15E8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BDB9457427C79D9B009D15E8 /* wordleMatrix Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9457527C79D9B009D15E8 /* SafariWebExtensionHandler.h */,
+				BDB9457627C79D9B009D15E8 /* SafariWebExtensionHandler.m */,
+				BDB9458927C79D9B009D15E8 /* Info.plist */,
+				BDB9458A27C79D9B009D15E8 /* wordleMatrix_Extension.entitlements */,
+				BDB9457827C79D9B009D15E8 /* Resources */,
+			);
+			path = "wordleMatrix Extension";
+			sourceTree = "<group>";
+		};
+		BDB9457827C79D9B009D15E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9457927C79D9B009D15E8 /* _locales */,
+				BDB9457B27C79D9B009D15E8 /* images */,
+				BDB9457D27C79D9B009D15E8 /* manifest.json */,
+				BDB9457F27C79D9B009D15E8 /* background.js */,
+				BDB9458127C79D9B009D15E8 /* content.js */,
+				BDB9458327C79D9B009D15E8 /* popup.html */,
+				BDB9458527C79D9B009D15E8 /* popup.css */,
+				BDB9458727C79D9B009D15E8 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BDF6634A27CBCF4000AFD57E /* matrixSend */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6635027CBD60600AFD57E /* matrixSend.entitlements */,
+				BDF6634B27CBCF4000AFD57E /* main.m */,
+			);
+			path = matrixSend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB9454F27C79D96009D15E8 /* wordleMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB9459127C79D9B009D15E8 /* Build configuration list for PBXNativeTarget "wordleMatrix" */;
+			buildPhases = (
+				BDB9454C27C79D96009D15E8 /* Sources */,
+				BDB9454D27C79D96009D15E8 /* Frameworks */,
+				BDB9454E27C79D96009D15E8 /* Resources */,
+				BDB9459027C79D9B009D15E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB9457327C79D9B009D15E8 /* PBXTargetDependency */,
+			);
+			name = wordleMatrix;
+			productName = wordleMatrix;
+			productReference = BDB9455027C79D96009D15E8 /* wordleMatrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB9456F27C79D9B009D15E8 /* wordleMatrix Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB9458D27C79D9B009D15E8 /* Build configuration list for PBXNativeTarget "wordleMatrix Extension" */;
+			buildPhases = (
+				BDB9456C27C79D9B009D15E8 /* Sources */,
+				BDB9456D27C79D9B009D15E8 /* Frameworks */,
+				BDB9456E27C79D9B009D15E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wordleMatrix Extension";
+			productName = "wordleMatrix Extension";
+			productReference = BDB9457027C79D9B009D15E8 /* wordleMatrix Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BDF6634827CBCF4000AFD57E /* matrixSend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF6634F27CBCF4000AFD57E /* Build configuration list for PBXNativeTarget "matrixSend" */;
+			buildPhases = (
+				BDF6634527CBCF4000AFD57E /* Sources */,
+				BDF6634627CBCF4000AFD57E /* Frameworks */,
+				BDF6634727CBCF4000AFD57E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = matrixSend;
+			productName = matrixSend;
+			productReference = BDF6634927CBCF4000AFD57E /* matrixSend */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB9454827C79D95009D15E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BDB9454F27C79D96009D15E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BDB9456F27C79D9B009D15E8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BDF6634827CBCF4000AFD57E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BDB9454B27C79D95009D15E8 /* Build configuration list for PBXProject "wordleMatrix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB9454727C79D95009D15E8;
+			productRefGroup = BDB9455127C79D96009D15E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB9454F27C79D96009D15E8 /* wordleMatrix */,
+				BDB9456F27C79D9B009D15E8 /* wordleMatrix Extension */,
+				BDF6634827CBCF4000AFD57E /* matrixSend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB9454E27C79D96009D15E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB9455B27C79D96009D15E8 /* Icon.png in Resources */,
+				BDB9456527C79D96009D15E8 /* Main.storyboard in Resources */,
+				BDB9455F27C79D96009D15E8 /* Script.js in Resources */,
+				BDB9455927C79D96009D15E8 /* Main.html in Resources */,
+				BDB9456727C79D9A009D15E8 /* Assets.xcassets in Resources */,
+				BDB9455D27C79D96009D15E8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB9456E27C79D9B009D15E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB9458027C79D9B009D15E8 /* background.js in Resources */,
+				BDB9458627C79D9B009D15E8 /* popup.css in Resources */,
+				BDB9458427C79D9B009D15E8 /* popup.html in Resources */,
+				BDB9457C27C79D9B009D15E8 /* images in Resources */,
+				BDB9457E27C79D9B009D15E8 /* manifest.json in Resources */,
+				BDB9457A27C79D9B009D15E8 /* _locales in Resources */,
+				BDB9458227C79D9B009D15E8 /* content.js in Resources */,
+				BDB9458827C79D9B009D15E8 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB9454C27C79D96009D15E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB9456227C79D96009D15E8 /* ViewController.m in Sources */,
+				BDB9456927C79D9A009D15E8 /* main.m in Sources */,
+				BDB9455527C79D96009D15E8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB9456C27C79D9B009D15E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB9457727C79D9B009D15E8 /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6634527CBCF4000AFD57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6634C27CBCF4000AFD57E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB9457327C79D9B009D15E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB9456F27C79D9B009D15E8 /* wordleMatrix Extension */;
+			targetProxy = BDB9457227C79D9B009D15E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB9455727C79D96009D15E8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB9455827C79D96009D15E8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BDB9456327C79D96009D15E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB9456427C79D96009D15E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB9458B27C79D9B009D15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDB9458C27C79D9B009D15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDB9458E27C79D9B009D15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "wordleMatrix Extension/wordleMatrix_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32VKVYTD7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wordleMatrix Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "wordleMatrix Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoz-jp.wordleMatrix.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BDB9458F27C79D9B009D15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "wordleMatrix Extension/wordleMatrix_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32VKVYTD7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wordleMatrix Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "wordleMatrix Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoz-jp.wordleMatrix.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		BDB9459227C79D9B009D15E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wordleMatrix/wordleMatrix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32VKVYTD7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = wordleMatrix;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoz-jp.wordleMatrix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BDB9459327C79D9B009D15E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wordleMatrix/wordleMatrix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32VKVYTD7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = wordleMatrix;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoz-jp.wordleMatrix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		BDF6634D27CBCF4000AFD57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = matrixSend/matrixSend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32VKVYTD7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDF6634E27CBCF4000AFD57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = matrixSend/matrixSend.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32VKVYTD7X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB9454B27C79D95009D15E8 /* Build configuration list for PBXProject "wordleMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB9458B27C79D9B009D15E8 /* Debug */,
+				BDB9458C27C79D9B009D15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB9458D27C79D9B009D15E8 /* Build configuration list for PBXNativeTarget "wordleMatrix Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB9458E27C79D9B009D15E8 /* Debug */,
+				BDB9458F27C79D9B009D15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB9459127C79D9B009D15E8 /* Build configuration list for PBXNativeTarget "wordleMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB9459227C79D9B009D15E8 /* Debug */,
+				BDB9459327C79D9B009D15E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF6634F27CBCF4000AFD57E /* Build configuration list for PBXNativeTarget "matrixSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6634D27CBCF4000AFD57E /* Debug */,
+				BDF6634E27CBCF4000AFD57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB9454827C79D95009D15E8 /* Project object */;
+}
