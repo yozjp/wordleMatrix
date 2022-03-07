@@ -12,3 +12,7 @@ It consists 3 parts:
 
 The Safari Web Extension looks up DOM of the board of Wordle, sends the information to ATOM Matrix via serial port.
 The trigger is the key event 'enter.' So, on-screen keyboard  is not supported.
+
+## video (with tweet)
+
+here we are -> https://twitter.com/yozjp/status/1498606786848653312
